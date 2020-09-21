@@ -41,12 +41,11 @@ function Footer() {
             <Link to="/">Terms of Services</Link>
           </div>
           <div className="footer__links">
-            <h2>About Us</h2>
-            <Link to="/signup">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Services</Link>
+            <h2>Contact Us</h2>
+            <Link to="/">Contact</Link>
+            <Link to="/">Support</Link>
+            <Link to="/">Destinations</Link>
+            <Link to="/">Sponsorships</Link>
           </div>
         </div>
       </div>
@@ -57,7 +56,7 @@ function Footer() {
               Traveler <PublicIcon />
             </Link>
           </div>
-          <small className="footer__rights">Traveler 2020</small>
+          <small className="footer__rights">© Traveler 2020</small>
           <div className="footer__socialIcons">
             <Link to="/" className="footer__socialIconLink">
               <FacebookIcon />

@@ -29,7 +29,7 @@ function Button({ children, type, onClick, buttonStyle, size }) {
         onClick={onClick}
         type={type}
       >
-        {children}
+        <div className="button__children">{children}</div>
       </button>
     </Link>
   );

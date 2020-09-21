@@ -25,14 +25,14 @@ h1 {
   margin-bottom: 24px;
 }
 
-.cardsItem {
+.cardItem {
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
 }
 
-.cardsItem__link {
+.cardItem__link {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -44,7 +44,7 @@ h1 {
   text-decoration: none;
 }
 
-.cardsItem__picWrap {
+.cardItem__picWrap {
   position: relative;
   width: 100%;
   padding-top: 67%;
@@ -56,7 +56,7 @@ h1 {
   animation-duration: 2s;
 }
 
-.cardsItem__picWrap::after {
+.cardItem__picWrap::after {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
@@ -70,7 +70,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.cardsItem__img {
+.cardItem__image {
   position: absolute;
   top: 0;
   right: 0;
@@ -85,15 +85,15 @@ h1 {
   transition: all 0.2s linear;
 }
 
-.cardsItem__img:hover {
+.cardItem__image:hover {
   transform: scale(1.1);
 }
 
-.cardsItem__info {
+.cardItem__info {
   padding: 20px 30px 30px;
 }
 
-.cardsItem__text {
+.cardItem__text {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
@@ -112,7 +112,7 @@ h1 {
 }
 
 @media only screen and (max-width: 1024px) {
-  .cardsItem {
+  .cardItem {
     margin-bottom: 2rem;
   }
 }
